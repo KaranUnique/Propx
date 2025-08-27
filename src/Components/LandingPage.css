@@ -1,0 +1,63 @@
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.landing-card {
+  width: 330px;
+  min-height: 667px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: start;
+  padding-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: #7a3aed;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #f3e8ff;
+  color: #7a3aed;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}

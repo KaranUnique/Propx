@@ -1,0 +1,117 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full screen */
+  background: #f4f4f4;
+}
+
+.login-box {
+  width: 330px;
+  height: 667px; /* fixed card height */
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Form takes full height of login-box */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Inputs stack at top */
+.form-content {
+  flex: 1;
+}
+
+/* Input field styles */
+.input-group {
+  display: block;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.floating-label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #fff;
+  font-size: 12px;
+  color: #7a4fe2;
+  font-weight: 600;
+  padding: 0 4px;
+}
+
+.input-group input {
+  width: 95%;
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #7a4fe2;
+}
+
+/* Radio group */
+.radio-group {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.radio-group p {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.radio-group input {
+  margin-right: 6px;
+  accent-color: #7a4fe2;
+}
+
+/* Button fixed at bottom of login-box */
+.button-wrapper {
+  margin-top: auto;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background: #ccc;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: var(--primary-color, #7a4fe2);
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #554cd6;
+}
