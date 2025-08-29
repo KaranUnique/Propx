@@ -65,4 +65,4 @@ popx-landing/
 This project is for educational/demo purposes. You may adapt it for your own use.
 
 ---
-Made with ❤️ using React and Vite.
+Made with ❤️ using Reactjs and Vite.
