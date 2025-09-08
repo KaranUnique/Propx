@@ -8,7 +8,7 @@ export default function LandingScreen() {
     <div className="landing-container">
       <div className="landing-card">
         <h2>Welcome to PopX</h2>
-        <p>Lorem ipsum dolor sit amet,<br/> a wonderfull application for cryptocurrency</p>
+        <p>Lorem ipsum dolor sit amet,<br/> a reliable secure application for cryptocurrency</p>
 
         <button className="btn-primary" onClick={() => navigate("/signup")}>
           Create Account
