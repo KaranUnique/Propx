@@ -60,7 +60,7 @@ export default function Login() {
               placeholder="Enter password"
             />
             {errors.password && (
-              <div style={{ color: "red", fontSize: 12 }}>{errors.password}</div>
+              <div style={{ color: "red", fontSize: 13 }}>{errors.password}</div>
             )}
           </div>
           {/* Button */}
