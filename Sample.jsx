@@ -4,6 +4,7 @@ const Sample = () => {
   return (
     <div>
       <button>Hello</button>
+      <p>Hello</p>
     </div>
   )
 }
