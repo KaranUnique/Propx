@@ -6,6 +6,7 @@ const Sample = () => {
       <button>Hello</button>
       <p>Hello</p>
       <button>Hello</button>
+      <p>Hello</p>
     </div>
   )
 }
