@@ -5,6 +5,7 @@ const Sample = () => {
     <div>
       <button>Hello</button>
       <p>Hello</p>
+      <button>Hello</button>
     </div>
   )
 }
